@@ -51,6 +51,7 @@ export default function App() {
           decelerationRate={'fast'}
           snapToInterval={flashCardHeight}
           onEndReached={fetchNewQuestion}
+          onEndReachedThreshold={0.5}
         />
         <TabBar />
       </View>

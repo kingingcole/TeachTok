@@ -17,7 +17,7 @@ const FlashCard = ({ question }: FlashCardProps) => {
                 <View style={{ width: '80%' }}>
                     <MultipleChoiceQuestion question={question} />
                 </View>
-                <ActionBar />
+                <ActionBar user={question.user} />
             </View>
 
             {/* playlist section */}

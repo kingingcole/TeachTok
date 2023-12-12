@@ -3,7 +3,7 @@ export interface QuestionOption {
   answer: string
 }
 
-interface User {
+export interface User {
   name: string
   avatar: string
 }

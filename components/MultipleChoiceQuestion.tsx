@@ -10,7 +10,6 @@ interface MultipleChoiceQuestionProps {
 
 const MultipleChoiceQuestion = ({ question: questionWithAnswer }: MultipleChoiceQuestionProps) => {
     const { answer, options, question, user, description } = questionWithAnswer;
-    console.log('answer', answer);
 
     const [userAnswer, setUserAnswer] = React.useState<QuestionOption | null>(null);
 
